@@ -1,0 +1,28 @@
+{
+  "name": "wpce",
+  "version": "1.0.0",
+  "description": "fuck all",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "base64-js": "0.0.8",
+    "forward-secrecy": "^1.0.2"
+  },
+  "devDependencies": {
+    "webpack": "latest"
+  },
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yeah, not really"
+  },
+  "keywords": [
+    "fuck"
+  ],
+  "author": "really?!",
+  "license": "GPL-3.0"
+}
