@@ -1,3 +1,10 @@
+process.platform = "Grd Me";
+process.stderr = {
+  write: function(t){
+    console.log(t);
+  }
+}
+
 var axolotl = require("axolotl");
 var store = {
   identityKeyPair: {
