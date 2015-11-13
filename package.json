@@ -8,9 +8,7 @@
   },
   "dependencies": {
     "axolotl": "latest",
-    "fs": "latest",
-    "traceur-loader": "^0.6.3",
-    "traceur-runtime": "latest"
+    "fs": "latest"
   },
   "devDependencies": {
     "webpack": "latest"

@@ -26,4 +26,4 @@ var store = {
   },
 }
 var axol = axolotl(store);
-//axol.generateIdentityKeyPair()
+console.log(axol.generateIdentityKeyPair());

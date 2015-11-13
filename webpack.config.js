@@ -11,6 +11,12 @@ module.exports = {
     alias: {
       Long: __dirname + "/node_modules/long/dist/Long.js",
       ByteBuffer: __dirname + "/node_modules/bytebuffer/dist/ByteBufferAB.js",
+      "traceur-runtime": __dirname + "/node_modules/traceur/bin/traceur-runtime.js",
     }
+  },
+  module: {
+    noParse: [
+      /node_modules\/traceur\/bin/,
+    ],
   },
 };
